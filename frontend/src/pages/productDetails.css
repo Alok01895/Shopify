@@ -1,0 +1,182 @@
+.productDetails{
+    width: 100vw;
+    max-width: 100%;
+
+    padding: 6vmax;
+    padding-top: 4vmax;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Carousel{
+    width: 30vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 5px 5px 4px rgba(0,0,0,0.6);
+   border-radius: 15px;
+   padding-bottom: 12px; 
+   background-color: #0F1111;
+
+}
+.carouselImage{
+    
+    height: 30vw;
+    width: 100%;
+}
+
+
+.details{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2vmax;
+    box-sizing: border-box;
+}
+
+.detailsBlock-1 > h2{
+    font:600 1.6vmax "Roboto";
+    color: rgb(54,54,54);
+}
+.detailsBlock-1 > p{
+    font:200 0.7vmax cursive;
+    color: rgba(54,54,54,0.5);
+}
+.detailsBlock-2{
+    display: flex;
+    margin-top: 1vmax;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.205);
+    border-bottom: 1px solid rgba(0,0,0,0.205);
+    width: 70%;
+    padding: 1vmax 0;
+}
+
+.detailsBlock-2 > span{
+    font:200 0.8vmax cursive;
+    color: rgba(54,54,54,0.5);
+}
+
+.detailsBlock-3{
+    width: 70%;
+}
+
+.detailsBlock-3 > h1{
+    color: crimson;
+    font:400 1.8vmax "Franklin Gothic Medium";
+    margin: 1vmax 0;
+}
+
+.detailsBlock-3-1{
+    display: flex;
+    align-items: center;
+}
+
+.detailsBlock-3-1-1{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.205);
+    box-shadow:2px 3px 4px rgba(0,0,0,0.6);
+    padding: 0;
+    
+}
+
+.detailsBlock-3-1-1 > button{
+    border: none;
+    background-color: aliceblue;
+    padding: 0.7vmax 1vmax;
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    transition: all 0.5s ease;
+    margin: 0;
+    
+
+}
+
+.detailsBlock-3-1-1 > button:hover{
+    background-color: #0F1111;
+    color: aliceblue;
+}
+.detailsBlock-3-1-1 > input{
+    border: none;
+    background-color: aliceblue;
+    padding: 0.6vmax;
+    width: 1vmax;
+    font-size: large;
+    font-weight: 600;
+    outline: none;
+}
+
+
+.greenColor{
+    color: green;
+}
+
+.redColor{
+    color: red;
+}
+
+.detailsBlock-3-1 > button:last-child{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+    transition: all 0.5s ease;
+    font: 800 1vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.9vmax 2vmax;
+    outline: none;
+    margin: 1vmax;
+    box-shadow:2px 3px 4px rgba(0,0,0,0.6);
+
+}
+
+.detailsBlock-3-1 > button:last-child:hover{
+    background-color: #0F1111;
+}
+
+.detailsBlock-3 > p{
+    border-top: 1px solid rgba(0,0,0,0.205);
+    border-bottom: 1px solid rgba(0,0,0,0.205);
+    padding: 1vmax 0;
+    color: rgba(0,0,0,0.7);
+    margin: 1vmax 0;
+    font: 600 1vmax "Roboto";
+}
+
+.detailsBlock-4{
+    color: rgba(0,0,0,0.8);
+    font: 600 1.2vmax "sans-serif";
+    margin: 1vmax 0;
+
+}
+.detailsBlock-4 > p{
+    color: rgba(0,0,0,0.6);
+    font: 300 0.8vmax cursive;
+}
+
+.SubmitReview{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+    transition: all 0.5s ease;
+    font: 800 1vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.9vmax 2vmax;
+    outline: none;
+    margin: 1vmax 0;
+    box-shadow:2px 3px 4px rgba(0,0,0,0.6);
+
+}
+
+
+.SubmitReview:hover{
+    background-color: #0F1111;
+    transform: scale(1.1);
+}
