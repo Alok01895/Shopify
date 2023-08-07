@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from 'react'
 import SlideShow from "../component/SlideShow.jsx"
 import Product from "../component/Product.jsx"
 import Metadata from "../component/layout/Metadata"
-import {getProduct} from "../actions/productAction"
+import {clearErrors, getProduct} from "../actions/productAction"
 import {useSelector,useDispatch} from "react-redux"
 import Loader from '../component/layout/loader/loader.jsx'
 import {useAlert} from "react-alert"
@@ -10,12 +10,13 @@ const Home = () => {
 
   const alert=useAlert()
   const dispatch=useDispatch();
-  const {loading,error,products,productsCount}=useSelector(state=>state.products)
+  const {loading,error,products,productCount}=useSelector(state=>state.products)
   
   useEffect(() => {
 
     if(error){
-      return alert.error(error)
+      alert.error(error)
+      dispatch(clearErrors())
     }
     dispatch(getProduct())
   }, [dispatch,error,alert])

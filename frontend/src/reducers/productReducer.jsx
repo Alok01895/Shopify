@@ -2,7 +2,7 @@ import { ALL_PRODUCT_FAIL,ALL_PRODUCT_SUCCESS,ALL_PRODUCT_REQUEST, CLEAR_ERRORS,
 
 export const productReducer=(state= {products:[]},action)=>{
 
-    switch(action.type)
+    switch(action.type) 
     {
         case ALL_PRODUCT_REQUEST:
             return { 
@@ -13,7 +13,8 @@ export const productReducer=(state= {products:[]},action)=>{
             return {
                 loading:false,
                 products:action.payload.products,
-                productsCount:action.payload.productsCount,
+                productCount:action.payload.productCount,
+                resultPerPage:action.payload.modelsPerPage
             }
         case ALL_PRODUCT_FAIL:
             return {

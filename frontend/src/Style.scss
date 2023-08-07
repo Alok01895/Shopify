@@ -201,7 +201,9 @@ footer{
         }
 
         .foot-info{
-           
+           display: flex;
+           justify-content: center;
+           margin-left: 5vw;
         }
 
         .foot-register{
@@ -350,65 +352,6 @@ footer{
             flex-wrap: wrap;
             justify-content: center;
     
-            .productCard{
-                display: flex;
-                flex-direction: column;
-                width: 16vmax;
-                text-decoration: none;
-                color: #0F1111;
-                margin: 2vmax;
-                margin-bottom: 0;
-                padding-bottom: 1vmax;
-                transition: all 0.5s;
-                box-shadow: 0.5px 1px 2px 2px rgba(0,0,0,0.3);
-                border-radius: 20px 10px 20px;
-                
-
-                &:hover{
-                    box-shadow: 1px 1px 2px 4px rgba(0,0,0,0.6);
-                    transform: translateY(-1vmax);
-                }
-    
-                img{
-                    width: 16vmax;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 10px;
-                    height: 16vmax;
-                }
-    
-                div{
-    
-                    display: flex;
-                    margin: 0.15vmax;
-                    margin-right: 0;
-                    margin-left: 0.1vmax;
-                    justify-content: flex-start;
-    
-    
-                    .stars.react-stars{
-                        span{
-                            margin: 0;
-                        }
-                    }
-                    span{
-                        margin: 0.5vmax;
-                        font-family: Georgia, 'Times New Roman', Times, serif;
-                        font-size: 0.7vmax;
-                        font-weight: 300;
-                    }
-                }
-                p{
-                    font-size: 1.2vmax;
-                    margin: 1vmax 0.5vmax;
-                    margin-bottom: 0;
-                }
-                span{
-                    margin: 0.5vmax 0.5vmax;
-                    color: tomato;
-                    font-size: 1vmax;
-                    font-weight: 600;
-                }
-            }
         }
     }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import ReactStars from "react-rating-stars-component"
+import "./Product.scss"
 const Product = ({product}) => {
 
     const options={

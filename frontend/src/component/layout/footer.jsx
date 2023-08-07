@@ -16,9 +16,7 @@ const footer = () => {
             </div>
             <div className="foot-info">
                 <div className="foot-info-heading"><h2>Information</h2></div>
-                <div className="info-con">
-                    
-                </div>
+                
             </div>
             
             <div className="foot-register">

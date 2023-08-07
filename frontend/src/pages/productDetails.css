@@ -180,3 +180,59 @@
     background-color: #0F1111;
     transform: scale(1.1);
 }
+
+
+
+.reviewsTitle{
+    color: #0F1111;
+    font: 700 1.4vmax "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.305);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+}
+
+.reviews{
+    display: flex;
+    overflow: auto;
+    
+}
+
+.reviewCard{
+    flex: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.205);
+    border: 1px solid rgba(56,565,56,0.116);
+    width: 30max;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+
+}
+
+
+.reviewCard > img{
+    width: 5vmax;
+}
+
+.reviewCard > p{
+    color: rgba(0,0,0,0.805);
+    font: 600 0.9vmax "Roboto";
+    
+}
+.reviewCard > span{
+    color: rgba(0,0,0,0.455);
+    font: 300 0.8vmax cursive;
+
+}
+
+
+.noreviews{
+    font: 600 1.1vmax "Gill Sans";
+    text-align: center;
+    color: rgba(0,0,0,0.555);
+    padding-bottom: 4vmax;
+}

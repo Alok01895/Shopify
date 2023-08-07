@@ -32,7 +32,8 @@ const ApiFeatures = require("../utils/apiFeatures");
         {
             success:true,
             products,
-            productCount
+            productCount,
+            modelsPerPage
         }
      )
  });
